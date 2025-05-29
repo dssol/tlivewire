@@ -27,11 +27,15 @@
     </head>
     <body class="min-h-screen bg-white dark:bg-zinc-800">
 
-        <livewire:menu.custom-header />
+        <div class="w-full bg-green-500 h-8 text-center" >
+            <span class="text-white">VERLOF MELDING</span>
+        </div>
+
+        <livewire:menu.custom-header /> <!-- Dit is de flux UI Header -->
 
 
         <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
-           HELLO WORLD
+           HELLO WORLD 2
         </div>
 
 
